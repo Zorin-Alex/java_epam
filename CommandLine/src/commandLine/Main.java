@@ -6,8 +6,7 @@ import java.nio.file.Paths;
 import java.util.Scanner;
 
 public class Main {
-    //static private Path currentPath = Paths.get(System.getProperty("user.dir"));
-    static private Path currentPath = Paths.get("D:/test");
+    static private Path currentPath = Paths.get(System.getProperty("user.dir"));
 
     public static void main(String[] args) throws IOException {
         Scanner scanner = new Scanner(System.in);

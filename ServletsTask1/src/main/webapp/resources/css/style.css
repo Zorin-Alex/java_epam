@@ -1,0 +1,44 @@
+@charset "utf-8";
+.button {
+    border-radius: 5px;
+    margin: 10px 2px;
+    padding: 8px ;
+    width: 100px;
+    text-align: center;
+    font-size: 14px;
+    background-color: #464646;
+    display: block;
+    float: left;
+    font-size: 14px;
+    color: white;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color:#3C0000;
+}
+
+.list{
+    padding: 8px ;
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+    background-color: #5C5C5C;
+    display: block;
+    float: left;
+    font-size: 14px;
+    color: white;
+    cursor: pointer;
+}
+
+.even{
+    background-color: #767676
+}
+
+.list:hover {
+    background-color: #3C0000;
+}
+
+.markedList {
+    background-color: #3C0000;
+}
